@@ -1,0 +1,16 @@
+### Mirar la configuración de red
+ip addr
+
+### Reiniciar la máquina
+shutdown -r now
+
+### Reiniciar la tarjeta de red
+systemctl restart network.service
+
+### Comandos para el firewall
+systemctl stop firewalld
+systemctl status firewalld
+systemctl restart firewalld
+
+### abrir un puerto; leer sobre las zonas; después toca reiniciar el firewall
+firewall-cmd --zone=public --add-port=port/tcp --permanent

@@ -1,0 +1,9 @@
+### Conectarse a servidor con ip pública o dentro de la misma red
+
+ssh user@ip
+
+### Para especificar un puerto diferente al 22
+ssh -p port user@ip
+
+### Conectar a través de un proxy
+ssh -o " ProxyCommand nc -X connect -x proxy:port %h %p" user@ip

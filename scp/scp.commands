@@ -1,0 +1,5 @@
+### Para enviar una carpeta a un servidor
+scp -r carpeta_local user@ip:/ruta_destino
+
+### Para enviar un archivo a un servidor
+scp archivo user@ip:/ruta_destino
