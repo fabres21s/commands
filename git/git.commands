@@ -1,0 +1,10 @@
+#### Clonar un repositorio de git
+
+git clone https://github.com/fabres21s/nombre_repositorio
+
+### Pasos para hace commit & push
+git add .
+git commit -m "Comentario"
+git pull origin master
+### Si hay conflictos, resolverlos y volver al inicio
+git push
