@@ -8,3 +8,12 @@ git commit -m "Comentario"
 git pull origin master
 ### Si hay conflictos, resolverlos y volver al inicio
 git push
+
+### Cambiarse de branch y traerse lo que está en el origin
+git fetch && git checkout otro_branch
+
+### Ver el branch actual
+git branch 
+
+### Sobre escribir todo un branch
+git reset --hard origin/branch
