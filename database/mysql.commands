@@ -1,0 +1,3 @@
+### Para cambiar la contraseña de cualquier usuario
+
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD('MyNewPass');

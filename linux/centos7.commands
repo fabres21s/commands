@@ -14,3 +14,6 @@ systemctl restart firewalld
 
 ### abrir un puerto; leer sobre las zonas; después toca reiniciar el firewall
 firewall-cmd --zone=public --add-port=port/tcp --permanent
+
+### Ver listado de puertos abiertos
+firewall-cmd --zone=public --list-ports
