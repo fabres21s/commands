@@ -17,3 +17,9 @@ git branch
 
 ### Sobre escribir todo un branch
 git reset --hard origin/branch
+
+### Borrar un branch local
+git branch -d the_local_branch 
+
+### Borrar un branch remoto
+git push origin --delete the_remote_branch
