@@ -19,7 +19,10 @@ git branch
 git reset --hard origin/branch
 
 ### Borrar un branch local
-git branch -d the_local_branch 
+git branch -D the_local_branch 
 
 ### Borrar un branch remoto
 git push origin --delete the_remote_branch
+
+### Sobre escribir un branch con un commit -- Usar con ciudado
+git push -f 

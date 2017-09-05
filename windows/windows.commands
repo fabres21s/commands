@@ -1,0 +1,5 @@
+#### Encontrar PID de un proceso a través de un puerto
+netstat -ano | findstr port
+
+#### Matar un proceso a través del PID
+taskkill /pid PID
